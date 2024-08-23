@@ -14,14 +14,14 @@
       <version>4.22.0</version>
     </dependency>
     <dependency>
-    <groupId>org.seleniumhq.webdriver</groupId>
-    <artifactId>webdriver-selenium</artifactId>
-    <version>0.9.7376</version>
+      <groupId>org.seleniumhq.webdriver</groupId>
+      <artifactId>webdriver-selenium</artifactId>
+      <version>0.9.7376</version>
     </dependency>
     <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-chrome-driver</artifactId>
-    <version>4.22.0</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>4.22.0</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -32,6 +32,17 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-edge-driver</artifactId>
       <version>4.22.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-safari-driver</artifactId>
+      <version>4.23.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.10.2</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
