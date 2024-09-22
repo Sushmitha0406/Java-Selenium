@@ -1,0 +1,18 @@
+# Created at 2024-09-19T18:31:59.805
+java.lang.annotation.AnnotationFormatError: Unexpected end of annotations.
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:75)
+	at java.base/java.lang.Class.createAnnotationData(Class.java:4068)
+	at java.base/java.lang.Class.annotationData(Class.java:4057)
+	at java.base/java.lang.Class.getAnnotation(Class.java:3940)
+	at org.apache.maven.surefire.testng.TestNGExecutor.findAnnotation(TestNGExecutor.java:173)
+	at org.apache.maven.surefire.testng.TestNGExecutor.findTestMetadata(TestNGExecutor.java:149)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:104)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+

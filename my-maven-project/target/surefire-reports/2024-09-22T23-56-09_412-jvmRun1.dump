@@ -1,0 +1,22 @@
+# Created at 2024-09-22T23:56:23.678
+java.lang.NullPointerException: Cannot invoke "java.lang.Class.isEnum()" because "componentType" is null
+	at java.base/sun.reflect.annotation.AnnotationParser.parseArray(AnnotationParser.java:528)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseMemberValue(AnnotationParser.java:352)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:282)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:121)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:73)
+	at java.base/java.lang.Class.createAnnotationData(Class.java:4068)
+	at java.base/java.lang.Class.annotationData(Class.java:4057)
+	at java.base/java.lang.Class.getAnnotation(Class.java:3940)
+	at org.apache.maven.surefire.testng.TestNGExecutor.findAnnotation(TestNGExecutor.java:173)
+	at org.apache.maven.surefire.testng.TestNGExecutor.findTestMetadata(TestNGExecutor.java:149)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:104)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+

@@ -1,0 +1,3 @@
+# Created at 2024-09-22T23:59:44.791
+Cannot invoke "java.lang.Class.isEnum()" because "componentType" is null
+
