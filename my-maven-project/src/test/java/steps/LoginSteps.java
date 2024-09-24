@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,6 +13,7 @@ import io.cucumber.java.en.When;
 
 public class LoginSteps {
     WebDriver driver;
+    WebDriverWait wait;
 @Given("User navigate to the orangehrm application login")
     public void userNavigateToTheOrangehrmApplicationLogin() {
         driver = new ChromeDriver();

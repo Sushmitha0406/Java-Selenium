@@ -10,6 +10,12 @@ Feature: OrangeHRM Application Test
     When User clicks on save button
     Then User should be added successfully
 
+    @prod
     Examples:
       | username | password | firstname | lastname |
       | Admin    | admin123 | sushmitha | thoutam  |
+
+    @test
+    Examples:
+      | username | password | firstname | lastname |
+      | Admin    | admin123 | sushmitha | akunuri  |
